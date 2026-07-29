@@ -1,0 +1,20 @@
+# opensky-lattice-bridge
+#
+.env
+.env.local
+*.pyc
+__pycache__/
+.venv/
+venv/
+.pytest_cache/
+.mypy_cache/
+.idea/
+.vscode/
+*.log
+dist/
+build/
+cpp/build/
+*.egg-info/
+*.obj
+*.pdb
+*.exe

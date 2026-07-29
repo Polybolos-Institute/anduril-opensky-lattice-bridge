@@ -1,0 +1,26 @@
+name: opensky-lattice-bridge CI
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+
+jobs:
+  python-syntax:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - run: python -m py_compile bridge/*.py
+  windows-cpp:
+    runs-on: windows-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Configure and build
+        working-directory: cpp
+        run: |
+          cmake -B build -A x64
+          cmake --build build --config Release
