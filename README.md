@@ -92,16 +92,16 @@ OpenSky REST --> OpenSkyClient --> AircraftState[]
 - [anduril-mock-lattice](https://github.com/Polybolos-Institute/anduril-mock-lattice) - CI sandbox stand-in
 - [anduril-lattice-sandbox-dx](https://github.com/Polybolos-Institute/anduril-lattice-sandbox-dx) - auth / ontology DX
 
-## Beyond this open foundation
 
-This repository is MIT open foundation.
+## Proprietary capabilities
 
-Production contested / denied-comms C2 needs more: adaptive track-state estimation, pursuit-evasion geometry, decision authority, and operator HOTL. Those layers stay proprietary at Polybolos Institute.
+This repository is the open foundation (MIT).
 
-Integration inquiries: mark.brown@polybolos.org · https://www.polybolos.org
+Polybolos Institute maintains additional contested and denied-comms C2 capabilities that are not published here. Contact us to discuss integration under commercial terms.
+
+mark.brown@polybolos.org · https://www.polybolos.org
 
 ## License
-
 MIT - see [LICENSE](LICENSE).
 
 Anduril®, Lattice®, and Lattice SDK® are trademarks of Anduril Industries.
