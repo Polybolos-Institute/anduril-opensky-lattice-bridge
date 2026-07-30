@@ -103,8 +103,8 @@ This project is an independent integration sample, not an Anduril product.
 
 ## Contact
 
-Polybolos Institute builds integrated C2 systems for contested operations.
+This repository is the open foundation (MIT).
 
-For production deployment, integration guidance, and commercial licensing:
+Polybolos Institute also maintains a proprietary catalog of additional capabilities that are not published here. Contact us to discuss production deployment and commercial licensing.
 
 mark.brown@polybolos.org · https://www.polybolos.org
